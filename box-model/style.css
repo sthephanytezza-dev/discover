@@ -1,14 +1,17 @@
 * {
-    box-sizing: border-box;
+    margin: 0;
+}
+
+div, section {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
 }
 
 div {
-    height: 100px;
-    border: 1px solid red;
-    width: 10px;
+    margin-bottom: 8px;
 }
 
-span {
-    height: 100px;
-    border: 1px solid green;
+section {
+    margin-top: 8px;
 }

@@ -34,16 +34,35 @@ div {
 - Comportamento externo das caixas
 
 | **block** | **inline** |
-|****************\_****************|**************\_\_**************|
+|******\*\*\*\*******\_******\*\*\*\*******|******\*\*******\_\_******\*\*******|
 | ocupa toda a linha, colocando o | elemento ao lado do outro |
 | próximo elemento abaixo desse | |
-|****************\_****************|**************\_\_**************|
+|******\*\*\*\*******\_******\*\*\*\*******|******\*\*******\_\_******\*\*******|
 | width e height são respeitados | width e heigth não funcionam |
-|****************\_****************|**************\_\_**************|
+|******\*\*\*\*******\_******\*\*\*\*******|******\*\*******\_\_******\*\*******|
 | padding, margin, border irão | somente valores horizontais |
 | funcionar normalmente. | de margin, padding e border |
-|****************\_****************|**************\_\_**************|
+|******\*\*\*\*******\_******\*\*\*\*******|******\*\*******\_\_******\*\*******|
 
 exemplos
 block: `<p> <div> <section>`, todos os headings `<h1><h2>...`
 inline: `<a> <strong> <span> <em>`
+
+# margin
+
+Espaços entre os elementos
+
+- margin-top | margin-right | margin-bottom | margin-left
+- values: `<length>` | `<percentage>` | auto
+
+```css
+div {
+  /* shorthand */
+  margin: 12px 16px 10px 4px;
+  margin: 12px 16px 0;
+  margin: 8px 16px;
+  margin: 8px;
+}
+```
+
+- Cuidado com margin collapsing (top se junta ao bottom)
