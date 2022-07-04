@@ -3,6 +3,13 @@
 }
 
 div, section {
-    border: 1px solid red;
-    padding: 0 2em;
+    width: 100px;
+    height: 100px;
+    margin: 20% auto;
+    /* border-top: red solid 1em; */
+    border: 10px solid green;
+    box-sizing: border-box;
+    border-top: dotted yellow 6px;
+    border-bottom: none;
+    outline: yellowgreen 4px solid;
 }
