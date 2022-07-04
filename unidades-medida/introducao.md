@@ -71,3 +71,8 @@ Em programação, funções são reconhecidas por causar um reaproveitamento de 
 - hsl()
 - url()
 - calc()
+
+# Strings e identificadores
+
+- Strings: texto envolto de aspas
+- Identificadores: red, black, gold
