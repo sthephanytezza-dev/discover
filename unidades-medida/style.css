@@ -1,9 +1,6 @@
-body {
-    width: 50%;
-}
-
-div {
-    background-color: aquamarine;
-    width: 50%;
-    height: 100px;
+.box {
+    height: 300px;
+    width: 400px;
+    background-image:  url(https://source.unsplash.com/random);
+    background-position: center;
 }

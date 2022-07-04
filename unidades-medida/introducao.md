@@ -51,3 +51,14 @@ vh 1% da viewport height
 
 - Em muitos casos é tratado da mesma maneira que as distâncias <length>
 - Sempre será relativo a algu valor
+
+# Posições
+
+<position>
+
+Representa um conjunto de coordenadas 2D:
+
+- top, right, bottom, left e center
+
+* Usado para alguns tipos de propriedades
+* Não confundir com a propriedade `position`
