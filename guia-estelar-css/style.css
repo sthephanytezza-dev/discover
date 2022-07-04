@@ -1,0 +1,32 @@
+/* 
+    Selectores: conecta um elemento HTML com o CSS 
+
+    Tipos
+    * Global selector `*`
+    * Element/Type selector `h1, h2, p, div`
+    * ID Selector `#box, #container`
+    * Class Selector `.red, .m-d`
+    * Attribute selector, Pseudo-class, Pseudo-element e outros.
+*/
+* {
+    margin: 0;
+}
+
+h1 {
+    color: aquamarine;
+    font-size: 60px;
+    background-color: gray;
+    border: 1px solid red;
+    /* Espaçamento por fora da caixa */
+    margin: 70px;
+    /* Espaço interno dentro da caixa */
+    padding: 30px;
+}
+
+#container {
+    width: 200px;
+}
+
+.m-40 {
+    margin: 40px;
+}
