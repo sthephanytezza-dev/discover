@@ -62,3 +62,12 @@ Representa um conjunto de coordenadas 2D:
 
 * Usado para alguns tipos de propriedades
 * Não confundir com a propriedade `position`
+
+# Funções para
+
+Em programação, funções são reconhecidas por causar um reaproveitamento de código.
+
+- rgb()
+- hsl()
+- url()
+- calc()
