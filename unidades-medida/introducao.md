@@ -46,3 +46,8 @@ em Tamanho da font do pai
 rem Tamanho da font do elemento raz (root/html)
 vw 1% da viewport width
 vh 1% da viewport height
+
+# Porcentagens %
+
+- Em muitos casos é tratado da mesma maneira que as distâncias <length>
+- Sempre será relativo a algu valor

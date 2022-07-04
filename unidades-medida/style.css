@@ -1,11 +1,9 @@
-:root {
-    font-size: 14px;
+body {
+    width: 50%;
 }
 
 div {
-    font-size: 18px;
-}
-
-p {
-    font-size: 2rem;
+    background-color: aquamarine;
+    width: 50%;
+    height: 100px;
 }
