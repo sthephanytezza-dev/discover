@@ -14,7 +14,7 @@ Essa caixa possui propriedades de uma caixa (2D).
 - Preenchimento interno padding
 - Espaços fora da caixa margin
 
-* Cada elemento na sua página, será considerado uma caixa.
+  - Cada elemento na sua página, será considerado uma caixa.
 
 ## box-sizing
 
@@ -34,15 +34,15 @@ div {
 - Comportamento externo das caixas
 
 | **block** | **inline** |
-|******\*\*\*\*******\_******\*\*\*\*******|******\*\*******\_\_******\*\*******|
+|**\*\***\*\*\*\***\*\***\_**\*\***\*\*\*\***\*\***|**\*\***\*\***\*\***\_\_**\*\***\*\***\*\***|
 | ocupa toda a linha, colocando o | elemento ao lado do outro |
 | próximo elemento abaixo desse | |
-|******\*\*\*\*******\_******\*\*\*\*******|******\*\*******\_\_******\*\*******|
+|**\*\***\*\*\*\***\*\***\_**\*\***\*\*\*\***\*\***|**\*\***\*\***\*\***\_\_**\*\***\*\***\*\***|
 | width e height são respeitados | width e heigth não funcionam |
-|******\*\*\*\*******\_******\*\*\*\*******|******\*\*******\_\_******\*\*******|
+|**\*\***\*\*\*\***\*\***\_**\*\***\*\*\*\***\*\***|**\*\***\*\***\*\***\_\_**\*\***\*\***\*\***|
 | padding, margin, border irão | somente valores horizontais |
 | funcionar normalmente. | de margin, padding e border |
-|******\*\*\*\*******\_******\*\*\*\*******|******\*\*******\_\_******\*\*******|
+|**\*\***\*\*\*\***\*\***\_**\*\***\*\*\*\***\*\***|**\*\***\*\***\*\***\_\_**\*\***\*\***\*\***|
 
 exemplos
 block: `<p> <div> <section>`, todos os headings `<h1><h2>...`
@@ -66,3 +66,22 @@ div {
 ```
 
 - Cuidado com margin collapsing (top se junta ao bottom)
+
+## padding
+
+Preenchimento interno da caixa.
+
+- padding-top | padding-right | padding-bottom | padding-left
+- values: `<length>` | `<percentage>`
+
+```css
+div {
+  /* shorthand */
+  padding: 12px 16px 10px 4px;
+  padding: 12px 16px 0;
+  padding: 8px 16px;
+  padding: 8px;
+}
+```
+
+    * Padding poderá causar diferença na largura de um elemento.

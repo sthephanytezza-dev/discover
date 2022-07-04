@@ -4,14 +4,5 @@
 
 div, section {
     border: 1px solid red;
-    width: 100px;
-    height: 100px;
-}
-
-div {
-    margin-bottom: 8px;
-}
-
-section {
-    margin-top: 8px;
+    padding: 0 2em;
 }
