@@ -1,7 +1,9 @@
 * {margin: 0;}
 
 header {
-    height: 100px;
+    height: 500px;
     border: 5px dashed red;
     background-color: aqua;
+    background-image: url(https://miro.medium.com/max/1200/1*fs0ScMc45X9QEwno8G414A.png);
+    background-repeat: repeat-y;
 }
