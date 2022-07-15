@@ -49,5 +49,10 @@ element {
   color: hsla(30 100% 50% / 0.6);
   color: hsl(30 100% 50% / 60%);
   color: hsla(30.2 100% 50% / 60%);
+
+  /* Global values */
+  color: inherit;
+  color: initial;
+  color: unset;
 }
 ```
