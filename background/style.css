@@ -11,6 +11,7 @@
 main {
     padding: 8px;
 
-    background: red url(https://rocketseat.com.br/icons/icon-144x144.png?v=cfca599cb367ccaf7377d56ddc7542f5) no-repeat 
-    center right / 50px border-box content-box;
+   background: linear-gradient(45deg, red, yellow);
+
+
 }
