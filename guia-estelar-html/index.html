@@ -8,18 +8,25 @@
 </head>
 <body>
     <!-- 
-        Anatomia das tags
-
-        - Abertura de tag
-        - Fechamento da tag
-        - Conteúdo 
-        - Elementos
+        Atributos globais mais utilizados
+        - class
+        - contenteditable
+        - data-*
+        - hidden
+        - id 
+        - style
+        - tabindex
+        - title
     -->
-
-    <h1>Título</h1>
-
-    <!-- Elementos vazios -->
-    <img src="" alt="">
-    <input type="text" disabled>
+    <div class="carrinho" contenteditable="true" tabindex="2">
+        Conteudo 1
+        <!-- Elementos aqui dentro-->
+    </div>
+    <div class="carrinho" data-qualquer-nome-aqui="" id="name" tabindex="3">
+        Conteudo 2
+    </div>
+    <div tabindex="1" title="Definir um titulo">
+        Conteudo 3
+    </div>
 </body>
 </html>
